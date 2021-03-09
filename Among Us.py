@@ -17,7 +17,7 @@ class Task:
     def __eq__(self, other):
         return (self.name, self.isCompleted) == (other.name, other.isCompleted)
             
-    def __repr__(self): # provided
+    def __repr__(self):
         return "Task(name: {}, isCompleted: {})".format(self.name, self.isCompleted)
 
 
