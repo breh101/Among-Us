@@ -143,8 +143,3 @@ class AmongUs:
 
     def __repr__(self): # provided
         return "AmongUs(maxPlayers: {})".format(self.maxPlayers)
-
-c = Crewmate("Summer", "blue")
-a= AmongUs(4)
-print(c.vote(a))
-
